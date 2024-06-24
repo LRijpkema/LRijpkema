@@ -15,15 +15,21 @@ class About extends Me
         ];
     }
 
-    public function getKnowledge(): array
+    public function getDailyKnowledge(): array
     {
         return [
             Php::class,
             Javascript::class,
             Laravel::class,
             Vuejs::class,
+            Svelte::class,
             TailwindCss::class,
         ];
+    }
+
+    public function getLocation(): string
+    {
+        return 'The Hague, Netherlands';
     }
 }
 ```
