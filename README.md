@@ -15,7 +15,7 @@ class About extends Me
         ];
     }
 
-    public function getDailyKnowledge(): array
+    public function getKnowledge(): array
     {
         return [
             Php::class,
@@ -24,11 +24,6 @@ class About extends Me
             Vuejs::class,
             TailwindCss::class,
         ];
-    }
-
-    public function getLocation(): string
-    {
-        return 'The Hague, Netherlands';
     }
 }
 ```
