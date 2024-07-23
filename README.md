@@ -5,16 +5,6 @@ namespace LuluRijpkema;
 
 class About extends Me
 {
-    public function getCurrentWorkplace(): array
-    {
-        return [
-            'workplace' => [
-                'company' => 'Modern Media Hub'
-                'position' => 'Intern'
-            ]
-        ];
-    }
-
     public function getDailyKnowledge(): array
     {
         return [
