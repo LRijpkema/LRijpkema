@@ -5,13 +5,22 @@ namespace LuluRijpkema;
 
 class About extends Me
 {
+    public function getCurrentWorkplace(): array
+    {
+        return [
+            'workplace' => [
+                'company' => 'OGonline'
+                'position' => 'Front-End Developer'
+            ]
+        ];
+    }
+
     public function getDailyKnowledge(): array
     {
         return [
-            Php::class,
             Javascript::class,
             Laravel::class,
-            Vuejs::class,
+            Svelte::class,
             TailwindCss::class,
         ];
     }
